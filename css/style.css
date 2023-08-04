@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2B2B2B;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Common */
+
+
+/* Navbar Starts */
+
+.navbar .navbar-brand {
+    font-family: 'Space Mono', 'monospace';
+}
+
+.navbar .navbar-brand i {
+    color: #A259FF;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar .sign-up-btn button {
+    color: white;
+    background-color: #A259FF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-nav {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar ul li a, .navbar button {
+    transition: all 0.6s;
+}
+
+.navbar ul li a:hover, .navbar button:hover {
+    transform: scale(0.9);
+}
+
+/* Navbar Ends */
+
+/* Homepage Section Starts */
+
+h1 {
+    font-size: 67px;
+    Line-height: 74px;
+    font-family: 'Work Sans';
+}
+
+.homepage .content p {
+    margin-top: 20px;
+    font-family: 'Work Sans';
+    line-height: 35.2px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.homepage .content button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #A259FF;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-family: 'Work Sans', sans-serif;
+    transition: all 0.6s;
+}
+
+.homepage .content button:hover {
+    transform: scale(0.9);
+}
+
+.card {
+    border: none;
+    background-color: #3B3B3B;
+}
+
+.card-body {
+    background-color: #3B3B3B;
+}
+
+.stats h4 {
+    font-family: 'Space Mono';
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.stats span {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+/* Homepage Section Ends */
+
+
+/* Trending Starts */
+h3 {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.content p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.trending .trending-img h5 {
+    background-color: #A259FF;
+    color: white;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.trending img,
+.trending h5 {
+    transition: all 0.6s;
+}
+
+.trending img:hover {
+    transform: scale(0.9);
+}
+
+.trending h5:hover {
+    transform: scale(0.9);
+}
+
+/* Trending Ends */
+
+
+/* Top Creators Section Starts */
+.view-ranking-btn button,
+.view-more-btn button {
+    border-radius: 20px;
+    font-size: 21px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid #A259FF;
+    color: white;
+    transition: all 0.6s;
+}
+
+.view-ranking-btn button i,
+.view-more-btn button i {
+    color: #A259FF;
+}
+
+.view-ranking-btn button:hover,
+.view-more-btn button:hover {
+    transform: scale(0.9);
+}
+
+.view-ranking-btn span,
+.view-more-btn span {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.top-creator .card-item .card .card-img {
+    width: 110px;
+}
+
+.top-creator .card-item .card h5 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Work Sans';
+}
+
+.top-creator .card-item .card p {
+    font-size: 18px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+
+.top-creator .card-item .card p .grey {
+    color: #858584;
+}
+
+.top-creator .card-item .card p .eth {
+    font-family: 'Space Mono';
+}
+
+.top-creator .card {
+    transition: all 0.6s;
+}
+
+.top-creator .card:hover {
+    transform: scale(0.9);
+}
+
+/* Top Creators Section Ends */
+
+
+/* Categories Section Starts */
+
+.categories .card-item h5 {
+    font-family: 'Work Sans';
+    font-size: 22px;
+}
+
+.categories .card-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.categories .card {
+    overflow: hidden;
+}
+
+.categories .card-img img {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+.card-icon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.categories .card-item {
+    transition: all 0.6s;
+}
+
+.categories .card-item:hover {
+    transform: scale(0.9);
+}
+
+
+/* Categories Section Ends */
+
+
+/* MORE NFT Section Starts */
+
+.more-nft .card-item .card span,
+.more-nft .card-item .card p {
+    font-family: 'Space Mono';
+}
+
+.more-nft .card-item .card .item span {
+    color: #858584;
+
+}
+
+.more-nft .card-item .card {
+    transition: all 0.6s;
+}
+
+.more-nft .card-item .card:hover {
+    transform: scale(0.9);
+}
+
+/* MORE NFT Section Ends */
+
+
+
+/* NFT Highlight Section Starts */
+.nft-highlight .bg-img {
+    background-image: url("../Images/Auction Section/Auction Image.png");
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(162.00005114078522, 89.00000989437103, 255, 0) 0%, rgb(162.00000554323196, 89.00000229477882, 255) 100%);
+    background-color: transparent;
+    position: absolute;
+}
+
+.nft-highlight .content button {
+    background-color: white;
+    color: black;
+    padding: 16px 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.nft-highlight .content h4 {
+    font-size: 42px;
+}
+
+.nft-highlight .content button i {
+    color: #A259FF;
+}
+
+.nft-highlight .nft-highlight-avatar {
+    background-color: #2B2B2B;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nft-highlight .content button {
+    transition: all 0.6s;
+}
+
+.nft-highlight .content button:hover {
+    transform: scale(0.9);
+}
+
+.hour .number span {
+    font-family: 'Space Mono';
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.hour .word span {
+    font-family: 'Space Mono';
+    font-size: 13px;
+}
+
+.highlight-item-right-title {
+    font-family: 'Space Mono';
+}
+
+.highlight-item-right .content {
+    background-color: rgba(43, 43, 43, 0.8);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* NFT Highlight Section Ends */
+
+/* How it works Starts */
+
+.how-it-works .card-item .card h5 {
+    font-size: 22px;
+}
+
+.how-it-works .card-item .card p {
+    font-size: 16px;
+}
+
+/* How it works Ends */
+
+/* Digest Starts */
+.digest .digest-title h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+}
+
+.digest .digest-title p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+    
+}
+
+.digest .container {
+    background-color: #3B3B3B;
+
+}
+
+.digest-title button, .footer-digest button {
+    background-color: #A259FF;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+/* Digest Ends */
+
+/* Footer Starts */
+
+footer {
+    background-color: #3B3B3B;
+}
+
+.footer-desc h5 {
+    color: white;
+    font-family: 'Space Mono';
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+.footer-desc p, .footer-desc li i {
+    color: #CCCCCC;
+}
+
+.footer-desc li i {
+    font-size: 21px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+.footer-links ul li {
+    margin-bottom: 37px;
+}
+
+.footer-links ul li h5 {
+    font-family:'Space Mono';
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer-digest h5 {
+    font-family:'Space Mono';
+    font-weight: 700;
+    font-size: 22px; 
+    margin-bottom: 25px;
+}
+
+.footer-digest p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 22.4px;
+    margin-bottom: 20px;
+
+}
+/* Footer Ends */
